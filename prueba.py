@@ -23,7 +23,7 @@ def plano_cartesiano(coordenadas):
     return filename
 
 def activation_function(z):
-    return z
+    return 1 / (1 + np.exp(-z))
 
 # Función para graficar la separación de datos
 def plot_decision_boundary(X, y, w, b):
