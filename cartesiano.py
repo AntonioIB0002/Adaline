@@ -7,7 +7,7 @@ import numpy as np
 import random
 import prueba
 import time
-
+# 1
 class AdalineThread(QThread):
     update_signal = pyqtSignal(float, float, float,bool,list,str,float,float)
 
